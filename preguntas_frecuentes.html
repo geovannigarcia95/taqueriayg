@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preguntas Frecuentes - Taquería YG</title>
+  <link rel="stylesheet" href="estilos/styles.css">
+  <style>
+    /* Estilos para los botones de redes sociales */
+    #social-links {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        justify-content: center; /* Centra los botones horizontalmente */
+    }
+
+    .social-button {
+        width: 50px; /* Ancho fijo para los botones */
+        height: 50px; /* Alto fijo para los botones */
+        cursor: pointer;
+        transition: filter 0.3s ease-in-out;
+        border: none;
+        background: none;
+    }
+
+    .social-button img {
+        max-width: 100%; /* Ajusta el tamaño máximo del icono */
+        max-height: 100%; /* Ajusta el tamaño máximo del icono */
+    }
+
+    .social-button:hover {
+        filter: brightness(80%); /* Cambia el brillo al pasar el ratón */
+    }
+
+    /* Estilos para las secciones */
+    section {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .faq-item {
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .faq-item h3 {
+        margin-top: 0;
+    }
+
+    .faq-item p {
+        margin-bottom: 10px;
+    }
+
+    /* Estilos para el logotipo */
+    #logo {
+        max-width: 200px; /* Tamaño máximo del logotipo */
+        display: block;
+        margin: 0 auto; /* Centra horizontalmente */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html">
+      <img id="logo" src="menu/logo.jpg" alt="Logo de la taqueria">
+    </a>
+    <h1>Preguntas Frecuentes</h1>
+    <p class="slogan">¡Donde cada taco es una experiencia única.!</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="menu.html">Menú</a></li>
+        <li><a href="direccion.html">Ubicación</a></li>
+        <li><a href="horario.html">Horarios</a></li>
+        <li><a href="preguntas_frecuentes.html">Preguntas frecuentes</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <div class="faq-item">
+      <h3>¿Cuáles son sus horarios de atención?</h3>
+      <p>Nuestro horario de atención es de lunes a domingo, de 10:00 a.m. a 10:00 p.m.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Ofrecen servicio a domicilio?</h3>
+      <p>Sí, ofrecemos servicio a domicilio. Puedes realizar tu pedido llamando al número 123-456-7890.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Aceptan tarjetas de crédito?</h3>
+      <p>Sí, aceptamos tarjetas de crédito y débito.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Tienen opciones vegetarianas en su menú?</h3>
+      <p>Sí, contamos con opciones vegetarianas en nuestro menú, como las quesadillas de queso.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Cuál es su política de devolución?</h3>
+      <p>No aceptamos devoluciones una vez que el pedido ha sido entregado y confirmado por el cliente.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Taquería YG. Todos los derechos reservados.</p>
+    <div id="social-links">
+        <button class="social-button" onclick="window.open('https://www.facebook.com/geovanni212', '_blank')">
+            <img src="img/facebook.png" alt="Facebook">
+        </button>
+        <button class="social-button" onclick="window.open('https://www.instagram.com/ygeovannigl/', '_blank')">
+            <img src="img/instagram.png" alt="Instagram">
+        </button>
+        <button class="social-button" onclick="window.open('https://github.com/geovannigarcia95', '_blank')">
+            <img src="img/github.png" alt="GitHub">
+        </button>
+        <button class="social-button" onclick="window.open('https://twitter.com/PokerGeovanni', '_blank')">
+            <img src="img/twitter.png" alt="Twitter">
+        </button>
+        <button class="social-button" onclick="window.location.href='mailto:joshio.garcia86@outlook.com'">
+            <img src="img/outlook.png" alt="Outlook">
+        </button>
+        <button class="social-button" onclick="window.location.href='mailto:geovannipoker@gmail.com'">
+            <img src="img/gmail.png" alt="Gmail">
+        </button>
+    </div>
+  </footer>
+  
+  <script src="scripts/index.js" defer></script>
+</body>
+</html>

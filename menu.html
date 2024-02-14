@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú - Taquería YG</title>
+  <link rel="stylesheet" href="estilos/styles.css"> <!-- Ruta corregida -->
+  <style>
+    /* Estilos para los botones de redes sociales */
+    #social-links {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        justify-content: center; /* Centra los botones horizontalmente */
+    }
+
+    .social-button {
+        width: 50px; /* Ancho fijo para los botones */
+        height: 50px; /* Alto fijo para los botones */
+        cursor: pointer;
+        transition: filter 0.3s ease-in-out;
+        border: none;
+        background: none;
+    }
+
+    .social-button img {
+        max-width: 100%; /* Ajusta el tamaño máximo del icono */
+        max-height: 100%; /* Ajusta el tamaño máximo del icono */
+    }
+
+    .social-button:hover {
+        filter: brightness(80%); /* Cambia el brillo al pasar el ratón */
+    }
+
+    /* Estilos para las secciones */
+    section {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    #bienvenida {
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+
+    #productos {
+        background-color: #f3f3f3;
+        padding: 20px;
+    }
+
+    .menu-item {
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .menu-item h3 {
+        margin-top: 0;
+    }
+
+    .menu-item p {
+        margin-bottom: 10px;
+    }
+
+    .menu-item .precio {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .menu-item img {
+        width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+        max-width: 400px; /* Establece un ancho máximo para las imágenes */
+        margin-bottom: 10px; /* Agrega un espacio entre la imagen y el texto */
+    }
+
+    /* Estilos para el logotipo */
+    #logo {
+        max-width: 200px; /* Tamaño máximo del logotipo */
+        display: block;
+        margin: 0 auto; /* Centra horizontalmente */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html">
+      <img id="logo" src="menu/logo.jpg" alt="Logo de la taqueria">
+    </a>
+    <h1>Nuestro Menú</h1>
+    <p class="slogan">¡Donde cada taco es una experiencia única.!</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="menu.html">Menú</a></li>
+        <li><a href="direccion.html">Ubicación</a></li>
+        <li><a href="horario.html">Horarios</a></li>
+        <li><a href="preguntas_frecuentes.html">Preguntas frecuentes</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Menú taqueria YG</h2>
+    <div class="menu-item">
+      <h3>Orden de tacos al pastor</h3>
+      <img src="menu/menu2.jpg" alt="Orden de tacos al pastor">
+      <p>
+        La orden de tacos al pastor es un plato emblemático de la cocina mexicana que consiste en tacos preparados con finas rebanadas de carne de cerdo marinadas con una mezcla de especias y condimentos, como achiote, chiles y jugos cítricos, que le confieren su característico sabor y aroma. La carne se cocina en un trompo vertical y se sirve tradicionalmente en tortillas de maíz calientes, acompañada de cebolla, cilantro y piña.</p>
+      <p class="precio">Precio: $45.00 la orden  </p>
+    </div>
+    <div class="menu-item">
+      <h3>Gringas </h3>
+      <img src="menu/menu1.jpg" alt="Gringas Normal">
+      <p>Las gringas son una deliciosa especialidad de la cocina mexicana que consiste en tortillas de harina suaves y flexibles rellenas de auténtica carne al pastor, queso fundido y otros ingredientes, como cebolla y cilantro. Se cocinan en comal hasta que el queso se derrite y la tortilla adquiere un ligero tostado. Las gringas son una opción popular y satisfactoria para los amantes de la comida mexicana.</p>
+      <p class="precio">Precio: $40.00 cada una para la versión normal y $60.00 cada una para la versión grande.</p>
+    </div>
+    <div class="menu-item">
+      <h3>Campechanas</h3>
+      <img src="menu/menu3.jpg" alt="Campechanas">
+      <p>
+        Las campechanas son una deliciosa combinación de carne y queso, una opción irresistible para los amantes de la cocina mexicana. Consisten en una tortilla suave rellena de carne de tu elección, generalmente carne al pastor, junto con queso derretido y otros ingredientes como cebolla, cilantro y salsa. Se cocinan a la perfección en el comal hasta que la tortilla esté ligeramente dorada y crujiente por fuera, y el queso se haya derretido completamente en el interior.</p>
+      <p class="precio">Precio: $40.00 cada una para la versión normal y $60.00 cada una para la versión grande.</p>
+    </div>
+    <div class="menu-item">
+      <h3>Taco Trompo</h3>
+      <img src="menu/menu4.jpg" alt="Taco Trompo">
+      <p>
+        El taco de trompo es una especialidad de la cocina mexicana que destaca por su sabor y textura únicos. Consiste en una tortilla de maíz suave y flexible, rellena de carne de cerdo adobada, la cual se cocina en un trompo vertical giratorio. La carne se corta finamente en láminas delgadas y se sirve caliente, generalmente acompañada de cebolla, cilantro, piña y una variedad de salsas.</p>
+      <p class="precio">Precio: $40.00 cada una para la versión normal y $60.00 cada una para la versión grande.</p>
+    </div>
+    <div class="menu-item">
+      <h3>Hamburguesa sencilla con papas</h3>
+      <img src="menu/menu5.jpg" alt="Hamburguesa sencilla con papas">
+      <p>
+        La hamburguesa sencilla es un clásico de la comida rápida, pero con un toque especial de la Taquería YG. Está hecha con una jugosa carne de res de alta calidad, acompañada de lechuga fresca, tomate, cebolla y una deliciosa salsa especial, todo servido en un suave pan de hamburguesa. Además, se sirve con papas fritas crujientes y doradas.</p>
+      <p class="precio">Precio: $40.00 cada una</p>
+    </div>
+    <div class="menu-item">
+      <h3>Trompoburger</h3>
+      <img src="menu/menu6.jpg" alt="trompoburger">
+      <p>La Trompoburger es una creación única de la Taquería YG que combina lo mejor de dos mundos: la tradicional carne de trompo y la clásica hamburguesa. Esta deliciosa hamburguesa está hecha con una jugosa y sabrosa carne de trompo, acompañada de lechuga fresca, tomate, cebolla, queso fundido y una exquisita salsa especial, todo ello servido en un suave pan de hamburguesa. Es una opción única y deliciosa que seguro te encantará.</p>
+      <p class="precio">Precio: $50.00 cada una</p>
+    </div>
+    <div class="menu-item">
+      <h3>Quesadillas</h3>
+      <img src="menu/menu7.jpg" alt="Quesadillas">
+      <p>
+        Las quesadillas de la Taquería YG son una delicia mexicana clásica y reconfortante. Están rellenas de queso derretido y puedes elegir entre una variedad de guisados para acompañarlas, como carne de pastor, pollo, chorizo, champiñones, o cualquier otro guiso que esté disponible en el menú. Las quesadillas se sirven calientes y son perfectas para disfrutar como snack o como parte de una comida completa.</p>
+      <p class="precio">Precio: $30.00 cada una</p>
+    </div>
+    <div class="menu-item">
+      <h3>Tostadas con carne de trompo o de res</h3>
+      <img src="menu/menu8.jpg" alt="Tostadas con carne de res">
+      <p>
+        Las tostadas con carne de trompo o de res son una explosión de sabores típicos de la cocina mexicana. Están compuestas por una base crujiente de tostada, sobre la cual se coloca una generosa porción de carne de trompo o de res, previamente sazonada con una mezcla de especias tradicionales. Encima se agregan ingredientes frescos como cebolla, cilantro, limón y salsa al gusto, que realzan aún más su sabor auténtico y picante.</p>
+      <p class="precio">Precio: $30.00 la orden</p>
+    </div>
+    <div class="menu-item">
+      <h3>Papas asadas</h3>
+      <img src="menu/menu9.jpg" alt="Papas asadas">
+      <p>
+        Las papas asadas son un acompañamiento clásico y delicioso que complementa perfectamente cualquier platillo. Consisten en papas enteras, lavadas y cortadas en rodajas o cuñas, sazonadas con sal, pimienta y otros condimentos según el gusto personal, y luego asadas en el horno hasta que estén tiernas por dentro y crujientes por fuera. Las papas asadas son una opción versátil y reconfortante que puede disfrutarse sola o como guarnición para una variedad de platos.</p>
+      <p class="precio">$60.00 la orden</p>
+    </div>
+    <div class="menu-item">
+      <h3>Enchiladas</h3>
+      <img src="menu/menu10.jpg" alt="Enchiladas">
+      <p>
+        Las enchiladas son un platillo tradicional de la cocina mexicana que consiste en tortillas de maíz rellenas de pollo, carne, queso o frijoles, enrolladas y cubiertas con salsa roja, verde o mole, y luego horneadas para que se mezclen los sabores y se derrita el queso. Se sirven calientes y se pueden acompañar con crema, queso rallado, cebolla picada, aguacate y otras guarniciones al gusto. Las enchiladas son conocidas por su sabor rico y picante, así como por su capacidad para satisfacer el hambre y deleitar el paladar.</p>
+      <p class="precio">$30.00 la orden</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Taquería YG. Todos los derechos reservados.</p>
+    <div id="social-links">
+        <button class="social-button" onclick="window.open('https://www.facebook.com/geovanni212', '_blank')">
+            <img src="img/facebook.png" alt="Facebook">
+        </button>
+        <button class="social-button" onclick="window.open('https://www.instagram.com/ygeovannigl/', '_blank')">
+            <img src="img/instagram.png" alt="Instagram">
+        </button>
+        <button class="social-button" onclick="window.open('https://github.com/geovannigarcia95', '_blank')">
+            <img src="img/github.png" alt="GitHub">
+        </button>
+        <button class="social-button" onclick="window.open('https://twitter.com/PokerGeovanni', '_blank')">
+            <img src="img/twitter.png" alt="Twitter">
+        </button>
+        <button class="social-button" onclick="window.location.href='mailto:joshio.garcia86@outlook.com'">
+            <img src="img/outlook.png" alt="Outlook">
+        </button>
+        <button class="social-button" onclick="window.location.href='mailto:geovannipoker@gmail.com'">
+            <img src="img/gmail.png" alt="Gmail">
+        </button>
+    </div>
+  </footer>
+  
+  <script src="scripts/index.js" defer></script> <!-- Ruta corregida -->
+</body>
+</html>

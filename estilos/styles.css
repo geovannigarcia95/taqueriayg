@@ -1,0 +1,117 @@
+body {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3; /* Color de fondo neutro */
+}
+
+header {
+  background-color: #d32f2f; /* Rojo intenso para el encabezado */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold; /* Texto de navegación en negrita */
+}
+
+.slogan {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+section {
+  padding: 20px;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+  background-color: #fff; /* Fondo blanco para los elementos del menú */
+  padding: 20px;
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+#social-links {
+  margin-top: 20px;
+}
+
+.social-button {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: filter 0.3s ease-in-out;
+  border: none;
+  background: none;
+}
+
+.social-button img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.social-button:hover {
+  filter: brightness(80%);
+}
+
+#logo {
+  width: 150px; /* Tamaño fijo para el logo */
+  height: 150px; /* Tamaño fijo para el logo */
+  border-radius: 50%; /* Hace que el logo sea redondo */
+  display: block;
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+nav {
+  text-align: center; /* Centra horizontalmente el contenido */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente los elementos */
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 1px solid #333; /* Negro */
+  border-radius: 5px;
+  color: #333; /* Texto negro */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #d32f2f; /* Cambio de color al pasar el ratón (rojo intenso) */
+  color: #fff; /* Texto blanco al pasar el ratón */
+}
+
+nav a.active {
+  background-color: #d32f2f; /* Color de fondo resaltado (rojo intenso) */
+  color: #fff; /* Color del texto resaltado (blanco) */
+}

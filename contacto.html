@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Taquería YG</title>
+  <link rel="stylesheet" href="estilos/styles.css"> <!-- Ruta corregida -->
+  <style>
+    /* Estilos para los botones de redes sociales */
+    #social-links {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        justify-content: center; /* Centra los botones horizontalmente */
+    }
+
+    .social-button {
+        width: 50px; /* Ancho fijo para los botones */
+        height: 50px; /* Alto fijo para los botones */
+        cursor: pointer;
+        transition: filter 0.3s ease-in-out;
+        border: none;
+        background: none;
+    }
+
+    .social-button img {
+        max-width: 100%; /* Ajusta el tamaño máximo del icono */
+        max-height: 100%; /* Ajusta el tamaño máximo del icono */
+    }
+
+    .social-button:hover {
+        filter: brightness(80%); /* Cambia el brillo al pasar el ratón */
+    }
+
+    #contact-info {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #contact-info h2 {
+        margin-bottom: 10px;
+    }
+
+    #contact-info p {
+        margin: 10px 0;
+    }
+
+    #contact-info p:first-child {
+        font-weight: bold;
+    }
+    #logo {
+        max-width: 200px; /* Tamaño máximo del logotipo */
+        display: block;
+        margin: 0 auto; /* Centra horizontalmente */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html">
+      <img id="logo" src="menu/logo.jpg" alt="Logo de la taqueria">
+    </a>
+    <h1>Contacto</h1>
+    <p class="slogan">¡Donde cada taco es una experiencia única.!</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="menu.html">Menú</a></li>
+        <li><a href="direccion.html">Ubicación</a></li>
+        <li><a href="horario.html">Horarios</a></li>
+        <li><a href="preguntas_frecuentes.html">Preguntas frecuentes</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="contact-info">
+    <h2>Información de Contacto</h2>
+    <p><span>Email:</span> geovannipoker@gmail.com</p>
+    <p><span>Teléfono:</span> 123-456-7890</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Taquería YG. Todos los derechos reservados.</p>
+    <div id="social-links">
+        <button class="social-button" onclick="window.open('https://www.facebook.com/geovanni212', '_blank')">
+            <img src="img/facebook.png" alt="Facebook">
+        </button>
+        <button class="social-button" onclick="window.open('https://www.instagram.com/ygeovannigl/', '_blank')">
+            <img src="img/instagram.png" alt="Instagram">
+        </button>
+        <button class="social-button" onclick="window.open('https://github.com/geovannigarcia95', '_blank')">
+            <img src="img/github.png" alt="GitHub">
+        </button>
+        <button class="social-button" onclick="window.open('https://twitter.com/PokerGeovanni', '_blank')">
+            <img src="img/twitter.png" alt="Twitter">
+        </button>
+        <button class="social-button" onclick="window.location.href='mailto:joshio.garcia86@outlook.com'">
+            <img src="img/outlook.png" alt="Outlook">
+        </button>
+        <button class="social-button" onclick="window.location.href='mailto:geovannipoker@gmail.com'">
+            <img src="img/gmail.png" alt="Gmail">
+        </button>
+    </div>
+  </footer>
+  <script src="scripts/index.js" defer></script> <!-- Ruta corregida -->
+</body>
+</html>
